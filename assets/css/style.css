@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: "Roboto"
 }
 .grid-layout{
     display: grid;
@@ -15,7 +16,7 @@ body{
 .menu{
     margin: 0;
     padding: 10px;
-    background-color: midnightblue;
+    background-color: #25527B;
     color: white;
     grid-area: menu;
     text-align: center;
@@ -24,8 +25,6 @@ body{
     padding-left: 20px;
     background-color: lightgrey;
     grid-area: sidebar;
-}
-.sidemenu{
     display: flex;
     flex-direction: column;
 }
@@ -41,9 +40,9 @@ body{
     overflow: auto;
 }
 .productos{
+    display: flex;
     margin: 10px;
     background-color: white;
-    display: flex;
     flex-direction: column;
     text-align: center;
 }
@@ -53,7 +52,7 @@ body{
 }
 .productos button{
     border: none;
-    background-color: darkblue;
+    background-color: #25527B;
     color: white;
 }
 .footer{
