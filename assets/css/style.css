@@ -22,10 +22,10 @@ body{
     text-align: center;
 }
 .sidebar{
+    display: flex;
     padding-left: 20px;
     background-color: lightgrey;
     grid-area: sidebar;
-    display: flex;
     flex-direction: column;
 }
 .principal{
